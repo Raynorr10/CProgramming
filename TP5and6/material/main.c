@@ -189,7 +189,7 @@ void display_linked_list(Link_t * list){
   Link_t * tampon = list;
   while (tampon != NULL) {
     printf("%s %s %d \n", (*tampon).student.lastname, (*tampon).student.firstname, (*tampon).student.group);
-    tampon = (*tampon).next;
+    tampon = tampon->next;
   }
 
 

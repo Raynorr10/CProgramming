@@ -1,6 +1,13 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include "linked-list.h"
+#include "link-types.h"
 /********************   read_file_content   ********************
 * read file and extract information to store it in array
 **************************************************************/
+extern Link_t * first_link;
+extern int number_of_students;
 
 void read_file_content(Student_t * array, FILE * file){
 

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include "linked-types.h"
+#include "link-types.h"
 #include "linked-list.h"
 
 /*************   global variables   ****************/
